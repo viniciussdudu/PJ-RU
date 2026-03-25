@@ -1,8 +1,10 @@
 # Projeto RU - Sistema de Cardápio do Restaurante Universitário
 
-Este projeto foi desenvolvido como parte da disciplina de Programação, utilizando a arquitetura **MVC (Model-View-Controller)** e persistência de dados em arquivos **JSON**. O fluxo de trabalho seguiu rigorosamente o **GitFlow**, garantindo a integridade do código e a colaboração eficiente da equipe.
+Este projeto foi desenvolvido como parte da disciplina de Engenharia de Software do curso de Ciência da Computação do 1° Semestre de 2026 com o Professor Edeilson Milhomem, utilizando a arquitetura **MVC (Model-View-Controller)** e persistência de dados em arquivos **JSON**. O fluxo de trabalho seguiu rigorosamente o **GitFlow**, garantindo a integridade do código e a colaboração eficiente da equipe.
 
 ---
+
+O PJ-RU é um sistema de gerenciamento de cardápios para o Restaurante Universitário, desenvolvido em PHP. O objetivo principal é oferecer uma interface organizada para a consulta de refeições.
 
 ##  Equipe e Atribuições
 
