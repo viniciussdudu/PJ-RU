@@ -1,0 +1,22 @@
+{
+    "almoco": {
+        "titulo": "Cardápio de Almoço",
+        "prato_principal": "Frango Xadrez",
+        "salada": "Acelga com cenoura",
+        "vegetariano": "Vinagrete de Grão de bico",
+        "guarnicao": "Macarrão Alho e óleo",
+        "complemento": "Arroz branco \/ Feijão Integral",
+        "sobremesa": "Melancia",
+        "suco": "Goiaba"
+    },
+    "janta": {
+        "titulo": "Cardápio de Jantar",
+        "prato_principal": "Iscas de Carne",
+        "salada": "Alface e Tomate",
+        "vegetariano": "Omelete de Legumes",
+        "guarnicao": "Purê de Batata",
+        "complemento": "Arroz branco \/ Feijão Preto",
+        "sobremesa": "paçoca",
+        "suco": "Tamarindo"
+    }
+}
