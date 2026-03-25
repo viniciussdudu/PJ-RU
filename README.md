@@ -50,3 +50,7 @@ O projeto seguiu o seguinte padrão de branches:
 * `main`: Versão estável e finalizada (Release).
 * `develop-v2`: Branch de integração onde todas as features foram unidas.
 * `feature/`: Branches individuais utilizadas por cada membro para desenvolver suas funções específicas antes do Pull Request.
+
+Link da Apresentação
+
+https://drive.google.com/file/d/1f_b4SL_xncGpQNbWqNRm30Fye9_vNHwK/view?usp=sharing
