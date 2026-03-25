@@ -1,6 +1,6 @@
 <?php
 namespace App\Controller;
-
+//
 use App\Model\Cardapio;
 
 class CardapioController {
@@ -17,6 +17,12 @@ class CardapioController {
     public function exibiralmoço() {
         $dados = $this->model->obterRefeicoes();
         $refeicao = $dados['almoco'];
+        include __DIR__ . '/../View/cardapiodetalhes.php';
+    }
+
+    public function exibirJanta() {
+        $dados = $this->model->obterRefeicoes();
+        $refeicao = $dados['janta'];
         include __DIR__ . '/../View/cardapiodetalhes.php';
     }
 
