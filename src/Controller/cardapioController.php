@@ -20,4 +20,10 @@ class CardapioController {
         include __DIR__ . '/../View/cardapiodetalhes.php';
     }
 
+    public function exibirJanta() {
+        $dados = $this->model->obterRefeicoes();
+        $refeicao = $dados['janta'];
+        include __DIR__ . '/../View/cardapiodetalhes.php';
+    }
+
 }
