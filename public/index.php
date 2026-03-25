@@ -7,7 +7,7 @@ use App\Controller\cardapioController;
 
 $controller = new CardapioController();
 
-$pagina = $GET['pagina'] ?? 'inicio';
+$pagina = $_GET['pagina'] ?? $_POST['pagina'] ?? 'inicio';
 
 if ($pagina === 'almoço') {
     $controller->exibiralmoço();
@@ -15,6 +15,15 @@ if ($pagina === 'almoço') {
 elseif ($pagina === 'janta') {
     $controller->exibirJanta();
 }
+elseif ($pagina === 'atualizarcardapio') {
+    $controller->exibirAtualizarCardapio();
+}
+elseif ($pagina === 'salvar') {
+    $controller->salvar();
+}
 else {
+    $dataHoje = date('d/m/Y');
+    $dados = new \App\Model\Cardapio();
+    $cardapio = $dados->obterRefeicoes();
     $controller->exibirHome();
 }
