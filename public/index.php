@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../src/Model/cardapio.php';
+require_once __DIR__ . '/../src/Model/Cardapio.php';
 require_once __DIR__ . '/../src/Controller/cardapioController.php';
 
 use App\Controller\cardapioController;
